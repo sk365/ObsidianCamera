@@ -5,10 +5,11 @@ This script and setup offer a way to quickly create camera notes and store them 
 
 ## Installation
 
-1. In your Dropbox, create a folder "inbox"
+1. In your Dropbox, create folders "inbox" and "resources"
 2. Download the Dropbox apps to your mobile and to your computer
-3. On your computer, create a symbolic link to your Obsidian vault ``` ln -s  ~/Dropbox/inbox /path/to/your/obsidian_vault ```
-4. On your computer, create a folder _resources in your Obsidian vault. ```mkdir /path/to/your/obsidian_vault/resources```
+3. On your computer, create symbolic links to your Obsidian vault <br/> 
+``` ln -s  ~/Dropbox/inbox /path/to/your/obsidian_vault ``` <br/> 
+ ``` ln -s  ~/Dropbox/_resources /path/to/your/obsidian_vault ```
 5. Download inbox_Obsidian_folder_action.sh from repository to your computer
 6. On your Mac, create a new Automator folder action for your Drobbox folder "inbox". Select execute shell script and paste in the content of inbox_Obsidian_folder_action.sh
 7. On Linux, the same result can be attained with a simple [watch](https://linux.die.net/man/1/watch) shell script
