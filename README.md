@@ -17,7 +17,7 @@ This script and setup offer a way to quickly create camera notes and store them 
 
 1. In your mobile Dropbox app, open folder "inbox". Select take photo or scan document.
 2. Store result as jpg or pdf. Name the image file as you wish to entitle your Obsidian note. 
-3. Optional: Add @target_folder and a list of tags (#tag1 #tag2 ...) to image file name before the extension. 
+3. Optional: Add @target_folder and a list of tags (#tag1 #tag2 ...) to image file name before the extension such that the image file name becomes e.g. ```Title of the note @target_folder #tag1 #Tag2 #tag3 .jpg ```
 4. When Dropbox  downloads the image file, the script will automatically:
 * create an Obsidian note named as the image file
 *  move the note into target_folder if such folder exists in your Obsidian vault
